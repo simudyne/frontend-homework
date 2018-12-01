@@ -1,8 +1,8 @@
-import { combineReducers } from 'redux'
-import commits from './commits'
+import { combineReducers } from 'redux';
+import commits from '../components/Graphics/reducer';
 
 const reducers = combineReducers({
-  commits,
-})
+  commits
+});
 
-export default reducers
+export default reducers;

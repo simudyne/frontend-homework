@@ -15,6 +15,7 @@
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^0.83.0",
     "style-loader": "^0.23.1",
+    "styled-components": "^4.1.2",
     "webpack": "^4.26.1",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.10"

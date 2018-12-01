@@ -1,15 +1,15 @@
-import * as types from '../constants/actionTypes'
+import * as types from './types';
 
 export const fetchCommitsRequest = () => ({
-  type: types.FETCH_COMMITS_REQUEST,
-})
+  type: types.FETCH_COMMITS_REQUEST
+});
 
 export const fetchCommitsSuccess = ticks => ({
   type: types.FETCH_COMMITS_SUCCESS,
-  commits,
-})
+  commits
+});
 
 export const fetchCommitsFailure = error => ({
   type: types.FETCH_COMMITS_FAILURE,
-  error,
-})
+  error
+});

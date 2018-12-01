@@ -1,11 +1,9 @@
-import * as React from 'react'
+import * as React from 'react';
 
-import { Graphics } from './containers/Graphics'
+import Graphics from './components/Graphics';
 
 const App = () => {
-  return (
-    <Graphics />
-  )
-}
+  return <Graphics />;
+};
 
-export default App
+export default App;
