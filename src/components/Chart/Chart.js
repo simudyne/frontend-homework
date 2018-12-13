@@ -3,20 +3,12 @@ import styled from 'styled-components';
 import moment from 'moment';
 import * as d3 from 'd3';
 import * as d3group from 'd3-array';
-import { select } from 'd3-selection';
-
-import { extent as d3ArrayExtent } from 'd3-array';
-import {
-  scaleLinear as d3ScaleLinear,
-  scaleTime as d3ScaleTime
-} from 'd3-scale';
 import { line as d3Line } from 'd3-shape';
 
 const ChartWrapper = styled.div`
   margin: 5rem;
 `;
 
-// const Chart = props => {
 export class Chart extends React.Component {
   constructor(props) {
     super(props);
@@ -31,16 +23,15 @@ export class Chart extends React.Component {
   drawChart = () => {
     const node = this.node;
     let data = this.props.data;
-    console.log(this.props.commits);
 
-    var margin = { top: 20, right: 20, bottom: 30, left: 40 }; // clockwise as in CSS
+    var margin = { top: 20, right: 20, bottom: 30, left: 40 };
 
-    var width = this.props.width - margin.left - margin.right, // width of plot inside margins
-      height = this.props.height - margin.top - margin.bottom; // height   "     "
+    var width = this.props.width - margin.left - margin.right,
+      height = this.props.height - margin.top - margin.bottom;
 
     const svg = d3.select('svg');
 
-    document.body.style.margin = '0px'; // Eliminate default margin from <body> element
+    document.body.style.margin = '0px';
 
     var dat = d3
       .nest()
@@ -63,7 +54,7 @@ export class Chart extends React.Component {
 
     var y = d3
       .scaleLinear() // interpolator for Y axis -- inner plot region
-      .range([height, 0]); // remember, (0,0) is upper left -- this reverses "y"
+      .range([height, 0]);
 
     var z = d3
       .scaleOrdinal()
@@ -75,11 +66,12 @@ export class Chart extends React.Component {
         return d.x;
       })
     );
-    y.domain(
-      d3.extent(d3.merge(series), function(d) {
+    y.domain([
+      0,
+      d3.max(d3.merge(series), function(d) {
         return d.y;
       })
-    ).nice();
+    ]).nice();
 
     var xAxis = d3
       .axisBottom(x)
@@ -88,12 +80,12 @@ export class Chart extends React.Component {
 
     var yAxis = d3
       .axisLeft(y)
-      .scale(y) // y Axis
-      .ticks(2);
+      .scale(y)
+      .ticks(3);
 
     var g = svg
       .append('g')
-      .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')'); // <g> element is the inner plot area (i.e., inside the margins)
+      .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
     g.append('g') // render the Y axis in the inner plot area
       .attr('class', 'y axis')
@@ -106,9 +98,12 @@ export class Chart extends React.Component {
 
     g.append('text') // outer x-axis label
       .attr('class', 'x label')
-      .attr('text-anchor', 'end')
+      .attr('text-anchor', 'middle')
       .attr('x', width / 2)
       .attr('y', height + (2 * margin.bottom) / 3 + 6)
+      .attr('color', '#342343')
+      .style('fill', 'darkGrey')
+      .style('font-size', '14px')
       .text('Date');
 
     g.append('text') // plot title
@@ -145,7 +140,7 @@ export class Chart extends React.Component {
       .enter()
       .append('circle')
       .attr('class', 'point')
-      .attr('r', 4.5)
+      .attr('r', 6)
       .attr('cx', function(d) {
         return x(d.x) + margin.left;
       })
@@ -157,7 +152,6 @@ export class Chart extends React.Component {
   render() {
     return (
       <ChartWrapper>
-        {/* <div>{commitData && this.drawChart(commitData)}</div> */}
         <div>
           <svg
             ref={node => (this.node = node)}
@@ -166,7 +160,6 @@ export class Chart extends React.Component {
           >
             {this.drawChart()}
           </svg>
-          {/* // {commitData && <div className="test">{drawChart(commitData)}</div>} */}
         </div>
       </ChartWrapper>
     );

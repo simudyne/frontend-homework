@@ -21,13 +21,6 @@ export class Graphics extends React.Component {
 
   render() {
     const { commits } = this.props;
-    const data = {
-      children: [
-        { id: 1, title: 'oneField', size: 150, g: 80 },
-        { id: 2, title: 'Teaser', size: 30, g: 50 },
-        { id: 3, title: 'Crazy', size: 70, g: 80 }
-      ]
-    };
 
     const commitData =
       commits &&
@@ -44,8 +37,7 @@ export class Graphics extends React.Component {
       <Container>
         <Grid centered columns={2} verticalAlign="middle">
           <Grid.Column textAlign="center">
-            {/* <Chart data={commits} height={400} width={400} /> */}
-            <Chart commits={commits} data={data} height={500} width={600} />
+            <Chart commits={commits} height={500} width={600} />
           </Grid.Column>
         </Grid>
       </Container>
@@ -55,8 +47,7 @@ export class Graphics extends React.Component {
 
 const mapStateToProps = state => {
   return {
-    commits: state.commits.data,
-    dates: []
+    commits: state.commits.data
   };
 };
 
