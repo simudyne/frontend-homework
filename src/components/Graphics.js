@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { Grid } from 'semantic-ui-react'
+import { Loader } from './Loader'
 
 import Commit from './Commit'
 
@@ -10,6 +11,10 @@ const style = {
 }
 
 export const Graphics = ({ commits }) => {
+
+  if (commits.fetching) {
+    return <Loader />
+  }
 
   const data = commits.error ?
     commits.error.message :
