@@ -1,11 +1,15 @@
 import * as React from 'react'
 import PropTypes from 'prop-types'
 import moment from 'moment'
+import styled from 'styled-components'
 import { Segment } from 'semantic-ui-react'
+
+const CommitHeader = styled.header`
+`;
 
 const Commit = ({ data }) => (
   <Segment>
-    <div>{data.commit.message}</div>
+    <CommitHeader>{data.commit.message}</CommitHeader>
     <div>{moment(data.commit.committer.date).format('LL')}</div>
   </Segment>
 )
