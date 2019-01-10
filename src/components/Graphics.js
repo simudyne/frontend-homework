@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Grid, Header } from 'semantic-ui-react'
+import { Grid, Container, Header } from 'semantic-ui-react'
 import { Loader } from './Loader'
 
 import Commit from './Commit'
@@ -26,18 +26,15 @@ export const Graphics = ({ commits }) => {
     target="_blank">juallom/frontend-homework</a>
 
   return (
-    <Grid
-      centered
-      columns={1}
-      style={style}
-      verticalAlign="top"
-    >
-      <Grid.Column textAlign='left'>
-        <Header size="medium" textAlign="center">
-          Commits on {repoLink}
-        </Header>
-        {data}
-      </Grid.Column>
-    </Grid>
+    <Container>
+      <Grid centered columns={1} style={style} verticalAlign="top">
+        <Grid.Column textAlign='left'>
+          <Header size="medium" textAlign="center">
+            Commits on {repoLink}
+          </Header>
+          {data}
+        </Grid.Column>
+      </Grid>
+    </Container>
   )
 }
