@@ -1,16 +1,27 @@
 import * as React from 'react'
 import PropTypes from 'prop-types'
 import moment from 'moment'
-import styled from 'styled-components'
-import { Segment } from 'semantic-ui-react'
+import { Segment, Grid, Header, Image } from 'semantic-ui-react'
 
-const CommitHeader = styled.header`
-`;
 
 const Commit = ({ data }) => (
   <Segment>
-    <CommitHeader>{data.commit.message}</CommitHeader>
-    <div>{moment(data.commit.committer.date).format('LL')}</div>
+    <Grid
+      centered
+      columns={2}
+      verticalAlign="middle"
+    >
+      <Grid.Column>
+        <Header size="tiny">{data.commit.message}</Header>
+        <div>
+          <Image src={data.com} avatar />
+        </div>
+      </Grid.Column>
+      <Grid.Column textAlign="right">
+        <div>{moment(data.commit.committer.date).format('LL')}</div>
+      </Grid.Column>
+    </Grid>
+
   </Segment>
 )
 
