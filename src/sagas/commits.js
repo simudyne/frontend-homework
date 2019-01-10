@@ -2,9 +2,9 @@ import { call, put, takeLatest } from 'redux-saga/effects'
 
 import * as types from '../constants/actionTypes'
 
-export function* fetchCommits() {
+export function* fetchCommits(action) {
   try {
-    const commits = yield call(requestCommits)
+    const commits = yield call(requestCommits, action.repository)
     yield put({ type: types.FETCH_COMMITS_SUCCESS, commits })
   } catch(error) {
     yield put({ type: types.FETCH_COMMITS_FAILURE, error })
@@ -21,13 +21,15 @@ const config = {
   cache: 'default'
 }
 
-const request = new Request('https://api.github.com/repos/juallom/frontend-homework/commits')
-
-export function requestCommits() {
+export function requestCommits(repository) {
+  const request = new Request(`https://api.github.com/repos/${repository}/commits`)
   return fetch(request, config).then(response => {
-    if (response.status === 200) {
+    if (response.status === 200)
       return response.json()
-    }
+
+    if (response.status === 404)
+      throw new Error(`Repository ${repository} doesn't exist`)
+
     throw new Error('An error occurred while loading the commits.')
   })
 }
