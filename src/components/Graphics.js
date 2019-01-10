@@ -68,7 +68,6 @@ export class Graphics extends React.Component {
   }
 
   onSubmit() {
-    console.log(this.state.repository)
     this.props.getCommits(this.state.repository)
   }
 }
