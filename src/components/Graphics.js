@@ -1,21 +1,31 @@
 import * as React from 'react'
-import { Segment, Grid } from 'semantic-ui-react'
+import { Grid } from 'semantic-ui-react'
+
+import Commit from './Commit'
 
 const style = {
   height: '100vh',
-  fontSize: '24px'
+  fontSize: '24px',
+  padding: '1rem'
 }
 
 export const Graphics = ({ commits }) => {
+
+  const data = commits.error ?
+    commits.error.message :
+    commits.data.map(commit => (
+      <Commit key={commit.sha} data={commit} />
+    ))
+
   return (
     <Grid
       centered
-      columns={2}
+      columns={1}
       style={style}
       verticalAlign="middle"
     >
       <Grid.Column textAlign='center'>
-        {commits.data.map(d => (<div>{d.sha}</div>))}
+        {data}
       </Grid.Column>
     </Grid>
   )
