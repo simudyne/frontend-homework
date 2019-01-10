@@ -27,7 +27,7 @@ export class Graphics extends React.Component {
           name="repository"
           value={this.state.repository}
           onChange={this.onChange}
-          loading={this.props.commits.fetching}
+          loading={this.props.fetching}
           icon='search'
           iconPosition='left'
           placeholder='facebook/react'
@@ -36,17 +36,17 @@ export class Graphics extends React.Component {
       </Form>
     )
 
-    const header = this.props.commits.data && this.props.commits.data.length > 0 &&
+    const header = this.props.commits && this.props.commits.length > 0 &&
       <Header size="medium" textAlign="center">
-        Commits on <a href={`https://github.com/${this.props.commits.repository}`}
-                      target="_blank">{this.props.commits.repository}</a>
+        Commits on <a href={`https://github.com/${this.props.repository}`}
+                      target="_blank">{this.props.repository}</a>
       </Header>
 
-    const data = this.props.commits.error ?
+    const data = this.props.error ?
       <Message negative>
-        <Message.Header>{this.props.commits.error.message}</Message.Header>
+        <Message.Header>{this.props.error}</Message.Header>
       </Message> :
-      this.props.commits.data.map(commit => (
+      this.props.commits.map(commit => (
         <Commit key={commit.sha} data={commit} />
       ))
 

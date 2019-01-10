@@ -7,7 +7,7 @@ export function* fetchCommits(action) {
     const commits = yield call(requestCommits, action.repository)
     yield put({ type: types.FETCH_COMMITS_SUCCESS, commits })
   } catch(error) {
-    yield put({ type: types.FETCH_COMMITS_FAILURE, error })
+    yield put({ type: types.FETCH_COMMITS_FAILURE, error: error.message })
   }
 }
 

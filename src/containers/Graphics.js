@@ -5,7 +5,10 @@ import { fetchCommitsRequest } from '../actions'
 import { Graphics as GraphicsComponent } from '../components/Graphics'
 
 const mapStateToProps = state => ({
-  commits: state.commits,
+  commits: state.commits.commits,
+  fetching: state.commits.fetching,
+  repository: state.commits.repository,
+  error: state.commits.error
 })
 
 const mapDispatchToProps = dispatch => ({
