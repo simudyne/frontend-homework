@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Committer component Should display author 1`] = `
+<div
+  className="author"
+  style={
+    Object {
+      "color": "#586069",
+      "fontSize": ".8rem",
+    }
+  }
+>
+  <img
+    className="ui avatar image"
+    src="http://avatar.com/JohnDoe"
+  />
+  <a
+    href="http://github.com/JohnDoe"
+    target="_blank"
+  >
+    JohnDoe
+  </a>
+</div>
+`;
+
+exports[`Committer component Should display commits author and committer 1`] = `
+<div
+  className="commit"
+  style={
+    Object {
+      "color": "#586069",
+      "fontSize": ".8rem",
+    }
+  }
+>
+  <img
+    className="ui avatar image"
+    src="https://cdn1.iconfinder.com/data/icons/user-pictures/100/unknown-512.png"
+  />
+  <a
+    href="mailto:http://github.com/JohnDoe"
+  >
+    JohnDoe
+  </a>
+   authored and 
+  <a
+    href="mailto:http://github.com/JaneDoe"
+  >
+    JaneDoe
+  </a>
+   committed
+</div>
+`;
+
+exports[`Committer component Should display committer 1`] = `
+<div
+  className="committer"
+  style={
+    Object {
+      "color": "#586069",
+      "fontSize": ".8rem",
+    }
+  }
+>
+  <img
+    className="ui avatar image"
+    src="http://avatar.com/JaneDoe"
+  />
+  <a
+    href="http://github.com/JaneDoe"
+    target="_blank"
+  >
+    JaneDoe
+  </a>
+</div>
+`;

@@ -1,0 +1,1241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Commit component Should render correctly 1`] = `
+<div
+  className="ui segment"
+>
+  <div
+    className="ui centered middle aligned two column grid"
+  >
+    <div
+      className="six wide computer sixteen wide mobile column"
+    >
+      <div
+        className="ui tiny header"
+      >
+        Remove styled-components dependency as it wasn't being used extensively
+      </div>
+      <div
+        className="author"
+        style={
+          Object {
+            "color": "#586069",
+            "fontSize": ".8rem",
+          }
+        }
+      >
+        <img
+          className="ui avatar image"
+          src="https://avatars2.githubusercontent.com/u/7203420?v=4"
+        />
+        <a
+          href="https://github.com/juallom"
+          target="_blank"
+        >
+          juallom
+        </a>
+      </div>
+    </div>
+    <div
+      className="right aligned ten wide computer sixteen wide mobile column"
+    >
+      <div
+        className="ui right labeled button"
+        onClick={[Function]}
+      >
+        <button
+          className="ui icon button"
+          tabIndex={0}
+        >
+          <i
+            aria-hidden="true"
+            className="comment icon"
+          />
+           
+          Comments
+        </button>
+        <span
+          className="ui left pointing basic label"
+          onClick={[Function]}
+        >
+          0
+        </span>
+      </div>
+      <button
+        className="ui primary button"
+        onClick={[Function]}
+        role="button"
+      >
+        <i
+          aria-hidden="true"
+          className="copy icon"
+        />
+        1f5979c
+      </button>
+      <button
+        className="ui button"
+        onClick={[Function]}
+        role="button"
+        style={
+          Object {
+            "minWidth": "190px",
+          }
+        }
+      >
+        <i
+          aria-hidden="true"
+          className="calendar icon"
+        />
+        January 11, 2019
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Commit component Should render correctly 2`] = `
+<div
+  className="ui segment"
+>
+  <div
+    className="ui centered middle aligned two column grid"
+  >
+    <div
+      className="six wide computer sixteen wide mobile column"
+    >
+      <div
+        className="ui tiny header"
+      >
+        Tests for commits reducer
+      </div>
+      <div
+        className="author"
+        style={
+          Object {
+            "color": "#586069",
+            "fontSize": ".8rem",
+          }
+        }
+      >
+        <img
+          className="ui avatar image"
+          src="https://avatars2.githubusercontent.com/u/7203420?v=4"
+        />
+        <a
+          href="https://github.com/juallom"
+          target="_blank"
+        >
+          juallom
+        </a>
+      </div>
+    </div>
+    <div
+      className="right aligned ten wide computer sixteen wide mobile column"
+    >
+      <div
+        className="ui right labeled button"
+        onClick={[Function]}
+      >
+        <button
+          className="ui icon button"
+          tabIndex={0}
+        >
+          <i
+            aria-hidden="true"
+            className="comment icon"
+          />
+           
+          Comments
+        </button>
+        <span
+          className="ui left pointing basic label"
+          onClick={[Function]}
+        >
+          0
+        </span>
+      </div>
+      <button
+        className="ui primary button"
+        onClick={[Function]}
+        role="button"
+      >
+        <i
+          aria-hidden="true"
+          className="copy icon"
+        />
+        8a76880
+      </button>
+      <button
+        className="ui button"
+        onClick={[Function]}
+        role="button"
+        style={
+          Object {
+            "minWidth": "190px",
+          }
+        }
+      >
+        <i
+          aria-hidden="true"
+          className="calendar icon"
+        />
+        January 10, 2019
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Commit component Should render correctly 3`] = `
+<div
+  className="ui segment"
+>
+  <div
+    className="ui centered middle aligned two column grid"
+  >
+    <div
+      className="six wide computer sixteen wide mobile column"
+    >
+      <div
+        className="ui tiny header"
+      >
+        Configure testing suite (jest + enzyme)
+      </div>
+      <div
+        className="author"
+        style={
+          Object {
+            "color": "#586069",
+            "fontSize": ".8rem",
+          }
+        }
+      >
+        <img
+          className="ui avatar image"
+          src="https://avatars2.githubusercontent.com/u/7203420?v=4"
+        />
+        <a
+          href="https://github.com/juallom"
+          target="_blank"
+        >
+          juallom
+        </a>
+      </div>
+    </div>
+    <div
+      className="right aligned ten wide computer sixteen wide mobile column"
+    >
+      <div
+        className="ui right labeled button"
+        onClick={[Function]}
+      >
+        <button
+          className="ui icon button"
+          tabIndex={0}
+        >
+          <i
+            aria-hidden="true"
+            className="comment icon"
+          />
+           
+          Comments
+        </button>
+        <span
+          className="ui left pointing basic label"
+          onClick={[Function]}
+        >
+          0
+        </span>
+      </div>
+      <button
+        className="ui primary button"
+        onClick={[Function]}
+        role="button"
+      >
+        <i
+          aria-hidden="true"
+          className="copy icon"
+        />
+        a0f721a
+      </button>
+      <button
+        className="ui button"
+        onClick={[Function]}
+        role="button"
+        style={
+          Object {
+            "minWidth": "190px",
+          }
+        }
+      >
+        <i
+          aria-hidden="true"
+          className="calendar icon"
+        />
+        January 10, 2019
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Commit component Should render correctly 4`] = `
+<div
+  className="ui segment"
+>
+  <div
+    className="ui centered middle aligned two column grid"
+  >
+    <div
+      className="six wide computer sixteen wide mobile column"
+    >
+      <div
+        className="ui tiny header"
+      >
+        Remove log
+      </div>
+      <div
+        className="author"
+        style={
+          Object {
+            "color": "#586069",
+            "fontSize": ".8rem",
+          }
+        }
+      >
+        <img
+          className="ui avatar image"
+          src="https://avatars2.githubusercontent.com/u/7203420?v=4"
+        />
+        <a
+          href="https://github.com/juallom"
+          target="_blank"
+        >
+          juallom
+        </a>
+      </div>
+    </div>
+    <div
+      className="right aligned ten wide computer sixteen wide mobile column"
+    >
+      <div
+        className="ui right labeled button"
+        onClick={[Function]}
+      >
+        <button
+          className="ui icon button"
+          tabIndex={0}
+        >
+          <i
+            aria-hidden="true"
+            className="comment icon"
+          />
+           
+          Comments
+        </button>
+        <span
+          className="ui left pointing basic label"
+          onClick={[Function]}
+        >
+          0
+        </span>
+      </div>
+      <button
+        className="ui primary button"
+        onClick={[Function]}
+        role="button"
+      >
+        <i
+          aria-hidden="true"
+          className="copy icon"
+        />
+        8b9ae34
+      </button>
+      <button
+        className="ui button"
+        onClick={[Function]}
+        role="button"
+        style={
+          Object {
+            "minWidth": "190px",
+          }
+        }
+      >
+        <i
+          aria-hidden="true"
+          className="calendar icon"
+        />
+        January 10, 2019
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Commit component Should render correctly 5`] = `
+<div
+  className="ui segment"
+>
+  <div
+    className="ui centered middle aligned two column grid"
+  >
+    <div
+      className="six wide computer sixteen wide mobile column"
+    >
+      <div
+        className="ui tiny header"
+      >
+        Search commits by repository feature
+      </div>
+      <div
+        className="author"
+        style={
+          Object {
+            "color": "#586069",
+            "fontSize": ".8rem",
+          }
+        }
+      >
+        <img
+          className="ui avatar image"
+          src="https://avatars2.githubusercontent.com/u/7203420?v=4"
+        />
+        <a
+          href="https://github.com/juallom"
+          target="_blank"
+        >
+          juallom
+        </a>
+      </div>
+    </div>
+    <div
+      className="right aligned ten wide computer sixteen wide mobile column"
+    >
+      <div
+        className="ui right labeled button"
+        onClick={[Function]}
+      >
+        <button
+          className="ui icon button"
+          tabIndex={0}
+        >
+          <i
+            aria-hidden="true"
+            className="comment icon"
+          />
+           
+          Comments
+        </button>
+        <span
+          className="ui left pointing basic label"
+          onClick={[Function]}
+        >
+          0
+        </span>
+      </div>
+      <button
+        className="ui primary button"
+        onClick={[Function]}
+        role="button"
+      >
+        <i
+          aria-hidden="true"
+          className="copy icon"
+        />
+        9e75cc3
+      </button>
+      <button
+        className="ui button"
+        onClick={[Function]}
+        role="button"
+        style={
+          Object {
+            "minWidth": "190px",
+          }
+        }
+      >
+        <i
+          aria-hidden="true"
+          className="calendar icon"
+        />
+        January 10, 2019
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Commit component Should render correctly 6`] = `
+<div
+  className="ui segment"
+>
+  <div
+    className="ui centered middle aligned two column grid"
+  >
+    <div
+      className="six wide computer sixteen wide mobile column"
+    >
+      <div
+        className="ui tiny header"
+      >
+        Complete Commit component data and layout
+      </div>
+      <div
+        className="author"
+        style={
+          Object {
+            "color": "#586069",
+            "fontSize": ".8rem",
+          }
+        }
+      >
+        <img
+          className="ui avatar image"
+          src="https://avatars2.githubusercontent.com/u/7203420?v=4"
+        />
+        <a
+          href="https://github.com/juallom"
+          target="_blank"
+        >
+          juallom
+        </a>
+      </div>
+    </div>
+    <div
+      className="right aligned ten wide computer sixteen wide mobile column"
+    >
+      <div
+        className="ui right labeled button"
+        onClick={[Function]}
+      >
+        <button
+          className="ui icon button"
+          tabIndex={0}
+        >
+          <i
+            aria-hidden="true"
+            className="comment icon"
+          />
+           
+          Comments
+        </button>
+        <span
+          className="ui left pointing basic label"
+          onClick={[Function]}
+        >
+          2
+        </span>
+      </div>
+      <button
+        className="ui primary button"
+        onClick={[Function]}
+        role="button"
+      >
+        <i
+          aria-hidden="true"
+          className="copy icon"
+        />
+        931263d
+      </button>
+      <button
+        className="ui button"
+        onClick={[Function]}
+        role="button"
+        style={
+          Object {
+            "minWidth": "190px",
+          }
+        }
+      >
+        <i
+          aria-hidden="true"
+          className="calendar icon"
+        />
+        January 10, 2019
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Commit component Should render correctly 7`] = `
+<div
+  className="ui segment"
+>
+  <div
+    className="ui centered middle aligned two column grid"
+  >
+    <div
+      className="six wide computer sixteen wide mobile column"
+    >
+      <div
+        className="ui tiny header"
+      >
+        Changes in Commit component layout
+      </div>
+      <div
+        className="commit"
+        style={
+          Object {
+            "color": "#586069",
+            "fontSize": ".8rem",
+          }
+        }
+      >
+        <img
+          className="ui avatar image"
+          src="https://cdn1.iconfinder.com/data/icons/user-pictures/100/unknown-512.png"
+        />
+        <a
+          href="mailto:juan.lloretmontalvo@zooplus.com"
+        >
+          Juan Lloret
+        </a>
+         authored and 
+        <a
+          href="mailto:juan.lloretmontalvo@zooplus.com"
+        >
+          Juan Lloret
+        </a>
+         committed
+      </div>
+    </div>
+    <div
+      className="right aligned ten wide computer sixteen wide mobile column"
+    >
+      <div
+        className="ui right labeled button"
+        onClick={[Function]}
+      >
+        <button
+          className="ui icon button"
+          tabIndex={0}
+        >
+          <i
+            aria-hidden="true"
+            className="comment icon"
+          />
+           
+          Comments
+        </button>
+        <span
+          className="ui left pointing basic label"
+          onClick={[Function]}
+        >
+          0
+        </span>
+      </div>
+      <button
+        className="ui primary button"
+        onClick={[Function]}
+        role="button"
+      >
+        <i
+          aria-hidden="true"
+          className="copy icon"
+        />
+        0757c7f
+      </button>
+      <button
+        className="ui button"
+        onClick={[Function]}
+        role="button"
+        style={
+          Object {
+            "minWidth": "190px",
+          }
+        }
+      >
+        <i
+          aria-hidden="true"
+          className="calendar icon"
+        />
+        January 10, 2019
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Commit component Should render correctly 8`] = `
+<div
+  className="ui segment"
+>
+  <div
+    className="ui centered middle aligned two column grid"
+  >
+    <div
+      className="six wide computer sixteen wide mobile column"
+    >
+      <div
+        className="ui tiny header"
+      >
+        Include styled-components in the project
+      </div>
+      <div
+        className="commit"
+        style={
+          Object {
+            "color": "#586069",
+            "fontSize": ".8rem",
+          }
+        }
+      >
+        <img
+          className="ui avatar image"
+          src="https://cdn1.iconfinder.com/data/icons/user-pictures/100/unknown-512.png"
+        />
+        <a
+          href="mailto:juan.lloretmontalvo@zooplus.com"
+        >
+          Juan Lloret
+        </a>
+         authored and 
+        <a
+          href="mailto:juan.lloretmontalvo@zooplus.com"
+        >
+          Juan Lloret
+        </a>
+         committed
+      </div>
+    </div>
+    <div
+      className="right aligned ten wide computer sixteen wide mobile column"
+    >
+      <div
+        className="ui right labeled button"
+        onClick={[Function]}
+      >
+        <button
+          className="ui icon button"
+          tabIndex={0}
+        >
+          <i
+            aria-hidden="true"
+            className="comment icon"
+          />
+           
+          Comments
+        </button>
+        <span
+          className="ui left pointing basic label"
+          onClick={[Function]}
+        >
+          0
+        </span>
+      </div>
+      <button
+        className="ui primary button"
+        onClick={[Function]}
+        role="button"
+      >
+        <i
+          aria-hidden="true"
+          className="copy icon"
+        />
+        79c1dff
+      </button>
+      <button
+        className="ui button"
+        onClick={[Function]}
+        role="button"
+        style={
+          Object {
+            "minWidth": "190px",
+          }
+        }
+      >
+        <i
+          aria-hidden="true"
+          className="calendar icon"
+        />
+        January 10, 2019
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Commit component Should render correctly 9`] = `
+<div
+  className="ui segment"
+>
+  <div
+    className="ui centered middle aligned two column grid"
+  >
+    <div
+      className="six wide computer sixteen wide mobile column"
+    >
+      <div
+        className="ui tiny header"
+      >
+        Include Loader component while fetching
+      </div>
+      <div
+        className="commit"
+        style={
+          Object {
+            "color": "#586069",
+            "fontSize": ".8rem",
+          }
+        }
+      >
+        <img
+          className="ui avatar image"
+          src="https://cdn1.iconfinder.com/data/icons/user-pictures/100/unknown-512.png"
+        />
+        <a
+          href="mailto:juan.lloretmontalvo@zooplus.com"
+        >
+          Juan Lloret
+        </a>
+         authored and 
+        <a
+          href="mailto:juan.lloretmontalvo@zooplus.com"
+        >
+          Juan Lloret
+        </a>
+         committed
+      </div>
+    </div>
+    <div
+      className="right aligned ten wide computer sixteen wide mobile column"
+    >
+      <div
+        className="ui right labeled button"
+        onClick={[Function]}
+      >
+        <button
+          className="ui icon button"
+          tabIndex={0}
+        >
+          <i
+            aria-hidden="true"
+            className="comment icon"
+          />
+           
+          Comments
+        </button>
+        <span
+          className="ui left pointing basic label"
+          onClick={[Function]}
+        >
+          0
+        </span>
+      </div>
+      <button
+        className="ui primary button"
+        onClick={[Function]}
+        role="button"
+      >
+        <i
+          aria-hidden="true"
+          className="copy icon"
+        />
+        43ee03c
+      </button>
+      <button
+        className="ui button"
+        onClick={[Function]}
+        role="button"
+        style={
+          Object {
+            "minWidth": "190px",
+          }
+        }
+      >
+        <i
+          aria-hidden="true"
+          className="calendar icon"
+        />
+        January 10, 2019
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Commit component Should render correctly 10`] = `
+<div
+  className="ui segment"
+>
+  <div
+    className="ui centered middle aligned two column grid"
+  >
+    <div
+      className="six wide computer sixteen wide mobile column"
+    >
+      <div
+        className="ui tiny header"
+      >
+        Perform fetch request and first draft for Commit component
+      </div>
+      <div
+        className="author"
+        style={
+          Object {
+            "color": "#586069",
+            "fontSize": ".8rem",
+          }
+        }
+      >
+        <img
+          className="ui avatar image"
+          src="https://avatars2.githubusercontent.com/u/7203420?v=4"
+        />
+        <a
+          href="https://github.com/juallom"
+          target="_blank"
+        >
+          juallom
+        </a>
+      </div>
+    </div>
+    <div
+      className="right aligned ten wide computer sixteen wide mobile column"
+    >
+      <div
+        className="ui right labeled button"
+        onClick={[Function]}
+      >
+        <button
+          className="ui icon button"
+          tabIndex={0}
+        >
+          <i
+            aria-hidden="true"
+            className="comment icon"
+          />
+           
+          Comments
+        </button>
+        <span
+          className="ui left pointing basic label"
+          onClick={[Function]}
+        >
+          0
+        </span>
+      </div>
+      <button
+        className="ui primary button"
+        onClick={[Function]}
+        role="button"
+      >
+        <i
+          aria-hidden="true"
+          className="copy icon"
+        />
+        99cca1b
+      </button>
+      <button
+        className="ui button"
+        onClick={[Function]}
+        role="button"
+        style={
+          Object {
+            "minWidth": "190px",
+          }
+        }
+      >
+        <i
+          aria-hidden="true"
+          className="calendar icon"
+        />
+        January 10, 2019
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Commit component Should render correctly 11`] = `
+<div
+  className="ui segment"
+>
+  <div
+    className="ui centered middle aligned two column grid"
+  >
+    <div
+      className="six wide computer sixteen wide mobile column"
+    >
+      <div
+        className="ui tiny header"
+      >
+        Add .idea folder to gitignore
+      </div>
+      <div
+        className="author"
+        style={
+          Object {
+            "color": "#586069",
+            "fontSize": ".8rem",
+          }
+        }
+      >
+        <img
+          className="ui avatar image"
+          src="https://avatars2.githubusercontent.com/u/7203420?v=4"
+        />
+        <a
+          href="https://github.com/juallom"
+          target="_blank"
+        >
+          juallom
+        </a>
+      </div>
+    </div>
+    <div
+      className="right aligned ten wide computer sixteen wide mobile column"
+    >
+      <div
+        className="ui right labeled button"
+        onClick={[Function]}
+      >
+        <button
+          className="ui icon button"
+          tabIndex={0}
+        >
+          <i
+            aria-hidden="true"
+            className="comment icon"
+          />
+           
+          Comments
+        </button>
+        <span
+          className="ui left pointing basic label"
+          onClick={[Function]}
+        >
+          0
+        </span>
+      </div>
+      <button
+        className="ui primary button"
+        onClick={[Function]}
+        role="button"
+      >
+        <i
+          aria-hidden="true"
+          className="copy icon"
+        />
+        9f46226
+      </button>
+      <button
+        className="ui button"
+        onClick={[Function]}
+        role="button"
+        style={
+          Object {
+            "minWidth": "190px",
+          }
+        }
+      >
+        <i
+          aria-hidden="true"
+          className="calendar icon"
+        />
+        January 10, 2019
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Commit component Should render correctly 12`] = `
+<div
+  className="ui segment"
+>
+  <div
+    className="ui centered middle aligned two column grid"
+  >
+    <div
+      className="six wide computer sixteen wide mobile column"
+    >
+      <div
+        className="ui tiny header"
+      >
+        🚧 scaffolding goes up 🏗️
+      </div>
+      <div
+        className="commit"
+        style={
+          Object {
+            "color": "#586069",
+            "fontSize": ".8rem",
+          }
+        }
+      >
+        <img
+          className="ui avatar image"
+          src="https://cdn1.iconfinder.com/data/icons/user-pictures/100/unknown-512.png"
+        />
+        <a
+          href="mailto:kristian@kristians-macbook.local"
+        >
+          Kristian
+        </a>
+         authored and 
+        <a
+          href="mailto:kristian@kristiasmacbook.simudyne"
+        >
+          Kristian
+        </a>
+         committed
+      </div>
+    </div>
+    <div
+      className="right aligned ten wide computer sixteen wide mobile column"
+    >
+      <div
+        className="ui right labeled button"
+        onClick={[Function]}
+      >
+        <button
+          className="ui icon button"
+          tabIndex={0}
+        >
+          <i
+            aria-hidden="true"
+            className="comment icon"
+          />
+           
+          Comments
+        </button>
+        <span
+          className="ui left pointing basic label"
+          onClick={[Function]}
+        >
+          0
+        </span>
+      </div>
+      <button
+        className="ui primary button"
+        onClick={[Function]}
+        role="button"
+      >
+        <i
+          aria-hidden="true"
+          className="copy icon"
+        />
+        58fcc69
+      </button>
+      <button
+        className="ui button"
+        onClick={[Function]}
+        role="button"
+        style={
+          Object {
+            "minWidth": "190px",
+          }
+        }
+      >
+        <i
+          aria-hidden="true"
+          className="calendar icon"
+        />
+        November 28, 2018
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Commit component Should render correctly 13`] = `
+<div
+  className="ui segment"
+>
+  <div
+    className="ui centered middle aligned two column grid"
+  >
+    <div
+      className="six wide computer sixteen wide mobile column"
+    >
+      <div
+        className="ui tiny header"
+      >
+        Initial commit
+      </div>
+      <div
+        className="author"
+        style={
+          Object {
+            "color": "#586069",
+            "fontSize": ".8rem",
+          }
+        }
+      >
+        <img
+          className="ui avatar image"
+          src="https://avatars0.githubusercontent.com/u/5860402?v=4"
+        />
+        <a
+          href="https://github.com/kristianKan"
+          target="_blank"
+        >
+          kristianKan
+        </a>
+      </div>
+    </div>
+    <div
+      className="right aligned ten wide computer sixteen wide mobile column"
+    >
+      <button
+        className="ui green basic button"
+        onClick={[Function]}
+        role="button"
+      >
+        Verified
+      </button>
+      <div
+        className="ui right labeled button"
+        onClick={[Function]}
+      >
+        <button
+          className="ui icon button"
+          tabIndex={0}
+        >
+          <i
+            aria-hidden="true"
+            className="comment icon"
+          />
+           
+          Comments
+        </button>
+        <span
+          className="ui left pointing basic label"
+          onClick={[Function]}
+        >
+          0
+        </span>
+      </div>
+      <button
+        className="ui primary button"
+        onClick={[Function]}
+        role="button"
+      >
+        <i
+          aria-hidden="true"
+          className="copy icon"
+        />
+        40724f9
+      </button>
+      <button
+        className="ui button"
+        onClick={[Function]}
+        role="button"
+        style={
+          Object {
+            "minWidth": "190px",
+          }
+        }
+      >
+        <i
+          aria-hidden="true"
+          className="calendar icon"
+        />
+        November 27, 2018
+      </button>
+    </div>
+  </div>
+</div>
+`;

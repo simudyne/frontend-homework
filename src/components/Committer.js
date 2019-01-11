@@ -8,23 +8,22 @@ const style = {
 
 export const Committer = ({author, committer, commit}) => {
 
-  const getAvatar = (prop = author) => (
-    <div style={style}>
-      <Image src={prop.avatar_url} avatar />
-      <a href={prop.html_url} target="_blank">{prop.login}</a>
-    </div>
-  )
-
   if (author)
-    return getAvatar()
+    return <div className="author" style={style}>
+      <Image src={author.avatar_url} avatar />
+      <a href={author.html_url} target="_blank">{author.login}</a>
+    </div>
 
   if (committer)
-    return getAvatar(committer)
+    return <div className="committer" style={style}>
+      <Image src={committer.avatar_url} avatar />
+      <a href={committer.html_url} target="_blank">{committer.login}</a>
+    </div>
 
   const authored = <a href={`mailto:${commit.author.email}`}>{commit.author.name}</a>
   const committed = <a href={`mailto:${commit.committer.email}`}>{commit.committer.name}</a>
   const avatarUrl = 'https://cdn1.iconfinder.com/data/icons/user-pictures/100/unknown-512.png'
-  return <div style={style}>
+  return <div className="commit" style={style}>
     <Image src={avatarUrl} avatar />
     {authored} authored and {committed} committed
   </div>

@@ -32,6 +32,18 @@ describe('Commits saga', () => {
     }
   })
 
+  it('requestCommits returns error on 409', async () => {
+    global.fetch = jest.fn().mockImplementation(() => Promise.resolve({
+      status: 409
+    }))
+    try {
+      await requestCommits(repository)
+      expect(true).toBe(false)
+    } catch(error) {
+      expect(error.message).toBe(`Repository ${repository} is empty`)
+    }
+  })
+
   it('requestCommits returns error on 500', async () => {
     global.fetch = jest.fn().mockImplementation(() => Promise.resolve({
       status: 500

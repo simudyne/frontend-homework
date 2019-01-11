@@ -4,7 +4,7 @@ import moment from 'moment'
 import { Segment, Grid, Header, Button, Icon } from 'semantic-ui-react'
 import { Committer } from './Committer'
 
-const Commit = ({ data }) => (
+const commit = ({ data }) => (
   <Segment>
     <Grid centered columns={2} verticalAlign="middle">
       <Grid.Column mobile={16} computer={6}>
@@ -35,7 +35,7 @@ const Commit = ({ data }) => (
   </Segment>
 )
 
-Commit.propTypes = {
+commit.propTypes = {
   data: PropTypes.shape({
     sha: PropTypes.string.isRequired,
     commit: PropTypes.shape({
@@ -64,4 +64,4 @@ Commit.propTypes = {
   }).isRequired
 }
 
-export default Commit
+export const Commit = commit

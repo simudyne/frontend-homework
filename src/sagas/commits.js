@@ -27,9 +27,10 @@ export function requestCommits(repository) {
   return fetch(request, config).then(response => {
     if (response.status === 200)
       return response.json()
-
     if (response.status === 404)
       throw new Error(`Repository ${repository} doesn't exist`)
+    if (response.status === 409)
+      throw new Error(`Repository ${repository} is empty`)
 
     throw new Error('An error occurred while loading the commits.')
   })
