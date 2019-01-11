@@ -1,0 +1,873 @@
+[
+  {
+    "sha": "1f5979cb54841dc46884c9e2223696f5224ee1d0",
+    "node_id": "MDY6Q29tbWl0MTY0OTQ4OTA5OjFmNTk3OWNiNTQ4NDFkYzQ2ODg0YzllMjIyMzY5NmY1MjI0ZWUxZDA=",
+    "commit": {
+      "author": {
+        "name": "Juan Lloret",
+        "email": "juallom@gmail.com",
+        "date": "2019-01-10T23:13:57Z"
+      },
+      "committer": {
+        "name": "Juan Lloret",
+        "email": "juallom@gmail.com",
+        "date": "2019-01-10T23:13:57Z"
+      },
+      "message": "Remove styled-components dependency as it wasn't being used extensively",
+      "tree": {
+        "sha": "5bffe8a3ac73ab42316174888ed54a09b762a3fa",
+        "url": "https://api.github.com/repos/juallom/frontend-homework/git/trees/5bffe8a3ac73ab42316174888ed54a09b762a3fa"
+      },
+      "url": "https://api.github.com/repos/juallom/frontend-homework/git/commits/1f5979cb54841dc46884c9e2223696f5224ee1d0",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/juallom/frontend-homework/commits/1f5979cb54841dc46884c9e2223696f5224ee1d0",
+    "html_url": "https://github.com/juallom/frontend-homework/commit/1f5979cb54841dc46884c9e2223696f5224ee1d0",
+    "comments_url": "https://api.github.com/repos/juallom/frontend-homework/commits/1f5979cb54841dc46884c9e2223696f5224ee1d0/comments",
+    "author": {
+      "login": "juallom",
+      "id": 7203420,
+      "node_id": "MDQ6VXNlcjcyMDM0MjA=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7203420?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/juallom",
+      "html_url": "https://github.com/juallom",
+      "followers_url": "https://api.github.com/users/juallom/followers",
+      "following_url": "https://api.github.com/users/juallom/following{/other_user}",
+      "gists_url": "https://api.github.com/users/juallom/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/juallom/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/juallom/subscriptions",
+      "organizations_url": "https://api.github.com/users/juallom/orgs",
+      "repos_url": "https://api.github.com/users/juallom/repos",
+      "events_url": "https://api.github.com/users/juallom/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/juallom/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "juallom",
+      "id": 7203420,
+      "node_id": "MDQ6VXNlcjcyMDM0MjA=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7203420?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/juallom",
+      "html_url": "https://github.com/juallom",
+      "followers_url": "https://api.github.com/users/juallom/followers",
+      "following_url": "https://api.github.com/users/juallom/following{/other_user}",
+      "gists_url": "https://api.github.com/users/juallom/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/juallom/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/juallom/subscriptions",
+      "organizations_url": "https://api.github.com/users/juallom/orgs",
+      "repos_url": "https://api.github.com/users/juallom/repos",
+      "events_url": "https://api.github.com/users/juallom/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/juallom/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8a768808f152e0d5000d08b75d2840de30a80065",
+        "url": "https://api.github.com/repos/juallom/frontend-homework/commits/8a768808f152e0d5000d08b75d2840de30a80065",
+        "html_url": "https://github.com/juallom/frontend-homework/commit/8a768808f152e0d5000d08b75d2840de30a80065"
+      }
+    ]
+  },
+  {
+    "sha": "8a768808f152e0d5000d08b75d2840de30a80065",
+    "node_id": "MDY6Q29tbWl0MTY0OTQ4OTA5OjhhNzY4ODA4ZjE1MmUwZDUwMDBkMDhiNzVkMjg0MGRlMzBhODAwNjU=",
+    "commit": {
+      "author": {
+        "name": "Juan Lloret",
+        "email": "juallom@gmail.com",
+        "date": "2019-01-10T22:51:16Z"
+      },
+      "committer": {
+        "name": "Juan Lloret",
+        "email": "juallom@gmail.com",
+        "date": "2019-01-10T22:51:16Z"
+      },
+      "message": "Tests for commits reducer",
+      "tree": {
+        "sha": "99ed4a9a28af26077ea85efd8a4fc05f9eae694d",
+        "url": "https://api.github.com/repos/juallom/frontend-homework/git/trees/99ed4a9a28af26077ea85efd8a4fc05f9eae694d"
+      },
+      "url": "https://api.github.com/repos/juallom/frontend-homework/git/commits/8a768808f152e0d5000d08b75d2840de30a80065",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/juallom/frontend-homework/commits/8a768808f152e0d5000d08b75d2840de30a80065",
+    "html_url": "https://github.com/juallom/frontend-homework/commit/8a768808f152e0d5000d08b75d2840de30a80065",
+    "comments_url": "https://api.github.com/repos/juallom/frontend-homework/commits/8a768808f152e0d5000d08b75d2840de30a80065/comments",
+    "author": {
+      "login": "juallom",
+      "id": 7203420,
+      "node_id": "MDQ6VXNlcjcyMDM0MjA=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7203420?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/juallom",
+      "html_url": "https://github.com/juallom",
+      "followers_url": "https://api.github.com/users/juallom/followers",
+      "following_url": "https://api.github.com/users/juallom/following{/other_user}",
+      "gists_url": "https://api.github.com/users/juallom/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/juallom/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/juallom/subscriptions",
+      "organizations_url": "https://api.github.com/users/juallom/orgs",
+      "repos_url": "https://api.github.com/users/juallom/repos",
+      "events_url": "https://api.github.com/users/juallom/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/juallom/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "juallom",
+      "id": 7203420,
+      "node_id": "MDQ6VXNlcjcyMDM0MjA=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7203420?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/juallom",
+      "html_url": "https://github.com/juallom",
+      "followers_url": "https://api.github.com/users/juallom/followers",
+      "following_url": "https://api.github.com/users/juallom/following{/other_user}",
+      "gists_url": "https://api.github.com/users/juallom/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/juallom/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/juallom/subscriptions",
+      "organizations_url": "https://api.github.com/users/juallom/orgs",
+      "repos_url": "https://api.github.com/users/juallom/repos",
+      "events_url": "https://api.github.com/users/juallom/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/juallom/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a0f721ab57be18801bf8ae9904795fde650083bc",
+        "url": "https://api.github.com/repos/juallom/frontend-homework/commits/a0f721ab57be18801bf8ae9904795fde650083bc",
+        "html_url": "https://github.com/juallom/frontend-homework/commit/a0f721ab57be18801bf8ae9904795fde650083bc"
+      }
+    ]
+  },
+  {
+    "sha": "a0f721ab57be18801bf8ae9904795fde650083bc",
+    "node_id": "MDY6Q29tbWl0MTY0OTQ4OTA5OmEwZjcyMWFiNTdiZTE4ODAxYmY4YWU5OTA0Nzk1ZmRlNjUwMDgzYmM=",
+    "commit": {
+      "author": {
+        "name": "Juan Lloret",
+        "email": "juallom@gmail.com",
+        "date": "2019-01-10T21:19:17Z"
+      },
+      "committer": {
+        "name": "Juan Lloret",
+        "email": "juallom@gmail.com",
+        "date": "2019-01-10T21:19:17Z"
+      },
+      "message": "Configure testing suite (jest + enzyme)",
+      "tree": {
+        "sha": "25ea5579fe5af844d463dfc1cb60db0a1623a5ff",
+        "url": "https://api.github.com/repos/juallom/frontend-homework/git/trees/25ea5579fe5af844d463dfc1cb60db0a1623a5ff"
+      },
+      "url": "https://api.github.com/repos/juallom/frontend-homework/git/commits/a0f721ab57be18801bf8ae9904795fde650083bc",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/juallom/frontend-homework/commits/a0f721ab57be18801bf8ae9904795fde650083bc",
+    "html_url": "https://github.com/juallom/frontend-homework/commit/a0f721ab57be18801bf8ae9904795fde650083bc",
+    "comments_url": "https://api.github.com/repos/juallom/frontend-homework/commits/a0f721ab57be18801bf8ae9904795fde650083bc/comments",
+    "author": {
+      "login": "juallom",
+      "id": 7203420,
+      "node_id": "MDQ6VXNlcjcyMDM0MjA=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7203420?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/juallom",
+      "html_url": "https://github.com/juallom",
+      "followers_url": "https://api.github.com/users/juallom/followers",
+      "following_url": "https://api.github.com/users/juallom/following{/other_user}",
+      "gists_url": "https://api.github.com/users/juallom/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/juallom/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/juallom/subscriptions",
+      "organizations_url": "https://api.github.com/users/juallom/orgs",
+      "repos_url": "https://api.github.com/users/juallom/repos",
+      "events_url": "https://api.github.com/users/juallom/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/juallom/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "juallom",
+      "id": 7203420,
+      "node_id": "MDQ6VXNlcjcyMDM0MjA=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7203420?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/juallom",
+      "html_url": "https://github.com/juallom",
+      "followers_url": "https://api.github.com/users/juallom/followers",
+      "following_url": "https://api.github.com/users/juallom/following{/other_user}",
+      "gists_url": "https://api.github.com/users/juallom/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/juallom/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/juallom/subscriptions",
+      "organizations_url": "https://api.github.com/users/juallom/orgs",
+      "repos_url": "https://api.github.com/users/juallom/repos",
+      "events_url": "https://api.github.com/users/juallom/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/juallom/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8b9ae34649cb32622b8f87367c458186998b1688",
+        "url": "https://api.github.com/repos/juallom/frontend-homework/commits/8b9ae34649cb32622b8f87367c458186998b1688",
+        "html_url": "https://github.com/juallom/frontend-homework/commit/8b9ae34649cb32622b8f87367c458186998b1688"
+      }
+    ]
+  },
+  {
+    "sha": "8b9ae34649cb32622b8f87367c458186998b1688",
+    "node_id": "MDY6Q29tbWl0MTY0OTQ4OTA5OjhiOWFlMzQ2NDljYjMyNjIyYjhmODczNjdjNDU4MTg2OTk4YjE2ODg=",
+    "commit": {
+      "author": {
+        "name": "Juan Lloret",
+        "email": "juallom@gmail.com",
+        "date": "2019-01-10T21:00:06Z"
+      },
+      "committer": {
+        "name": "Juan Lloret",
+        "email": "juallom@gmail.com",
+        "date": "2019-01-10T21:00:06Z"
+      },
+      "message": "Remove log",
+      "tree": {
+        "sha": "5081bf27abc57f29276b7835214c8fb8619eb1e5",
+        "url": "https://api.github.com/repos/juallom/frontend-homework/git/trees/5081bf27abc57f29276b7835214c8fb8619eb1e5"
+      },
+      "url": "https://api.github.com/repos/juallom/frontend-homework/git/commits/8b9ae34649cb32622b8f87367c458186998b1688",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/juallom/frontend-homework/commits/8b9ae34649cb32622b8f87367c458186998b1688",
+    "html_url": "https://github.com/juallom/frontend-homework/commit/8b9ae34649cb32622b8f87367c458186998b1688",
+    "comments_url": "https://api.github.com/repos/juallom/frontend-homework/commits/8b9ae34649cb32622b8f87367c458186998b1688/comments",
+    "author": {
+      "login": "juallom",
+      "id": 7203420,
+      "node_id": "MDQ6VXNlcjcyMDM0MjA=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7203420?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/juallom",
+      "html_url": "https://github.com/juallom",
+      "followers_url": "https://api.github.com/users/juallom/followers",
+      "following_url": "https://api.github.com/users/juallom/following{/other_user}",
+      "gists_url": "https://api.github.com/users/juallom/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/juallom/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/juallom/subscriptions",
+      "organizations_url": "https://api.github.com/users/juallom/orgs",
+      "repos_url": "https://api.github.com/users/juallom/repos",
+      "events_url": "https://api.github.com/users/juallom/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/juallom/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "juallom",
+      "id": 7203420,
+      "node_id": "MDQ6VXNlcjcyMDM0MjA=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7203420?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/juallom",
+      "html_url": "https://github.com/juallom",
+      "followers_url": "https://api.github.com/users/juallom/followers",
+      "following_url": "https://api.github.com/users/juallom/following{/other_user}",
+      "gists_url": "https://api.github.com/users/juallom/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/juallom/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/juallom/subscriptions",
+      "organizations_url": "https://api.github.com/users/juallom/orgs",
+      "repos_url": "https://api.github.com/users/juallom/repos",
+      "events_url": "https://api.github.com/users/juallom/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/juallom/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9e75cc35dc394cdc1e16a701364fc55eb0932b49",
+        "url": "https://api.github.com/repos/juallom/frontend-homework/commits/9e75cc35dc394cdc1e16a701364fc55eb0932b49",
+        "html_url": "https://github.com/juallom/frontend-homework/commit/9e75cc35dc394cdc1e16a701364fc55eb0932b49"
+      }
+    ]
+  },
+  {
+    "sha": "9e75cc35dc394cdc1e16a701364fc55eb0932b49",
+    "node_id": "MDY6Q29tbWl0MTY0OTQ4OTA5OjllNzVjYzM1ZGMzOTRjZGMxZTE2YTcwMTM2NGZjNTVlYjA5MzJiNDk=",
+    "commit": {
+      "author": {
+        "name": "Juan Lloret",
+        "email": "juallom@gmail.com",
+        "date": "2019-01-10T20:58:05Z"
+      },
+      "committer": {
+        "name": "Juan Lloret",
+        "email": "juallom@gmail.com",
+        "date": "2019-01-10T20:58:05Z"
+      },
+      "message": "Search commits by repository feature",
+      "tree": {
+        "sha": "8e3bfaa887930bfb5cf10a29bcbafedaeb5c43fa",
+        "url": "https://api.github.com/repos/juallom/frontend-homework/git/trees/8e3bfaa887930bfb5cf10a29bcbafedaeb5c43fa"
+      },
+      "url": "https://api.github.com/repos/juallom/frontend-homework/git/commits/9e75cc35dc394cdc1e16a701364fc55eb0932b49",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/juallom/frontend-homework/commits/9e75cc35dc394cdc1e16a701364fc55eb0932b49",
+    "html_url": "https://github.com/juallom/frontend-homework/commit/9e75cc35dc394cdc1e16a701364fc55eb0932b49",
+    "comments_url": "https://api.github.com/repos/juallom/frontend-homework/commits/9e75cc35dc394cdc1e16a701364fc55eb0932b49/comments",
+    "author": {
+      "login": "juallom",
+      "id": 7203420,
+      "node_id": "MDQ6VXNlcjcyMDM0MjA=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7203420?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/juallom",
+      "html_url": "https://github.com/juallom",
+      "followers_url": "https://api.github.com/users/juallom/followers",
+      "following_url": "https://api.github.com/users/juallom/following{/other_user}",
+      "gists_url": "https://api.github.com/users/juallom/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/juallom/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/juallom/subscriptions",
+      "organizations_url": "https://api.github.com/users/juallom/orgs",
+      "repos_url": "https://api.github.com/users/juallom/repos",
+      "events_url": "https://api.github.com/users/juallom/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/juallom/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "juallom",
+      "id": 7203420,
+      "node_id": "MDQ6VXNlcjcyMDM0MjA=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7203420?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/juallom",
+      "html_url": "https://github.com/juallom",
+      "followers_url": "https://api.github.com/users/juallom/followers",
+      "following_url": "https://api.github.com/users/juallom/following{/other_user}",
+      "gists_url": "https://api.github.com/users/juallom/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/juallom/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/juallom/subscriptions",
+      "organizations_url": "https://api.github.com/users/juallom/orgs",
+      "repos_url": "https://api.github.com/users/juallom/repos",
+      "events_url": "https://api.github.com/users/juallom/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/juallom/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "931263dd7ddef16d04dfe206236066fcf549a471",
+        "url": "https://api.github.com/repos/juallom/frontend-homework/commits/931263dd7ddef16d04dfe206236066fcf549a471",
+        "html_url": "https://github.com/juallom/frontend-homework/commit/931263dd7ddef16d04dfe206236066fcf549a471"
+      }
+    ]
+  },
+  {
+    "sha": "931263dd7ddef16d04dfe206236066fcf549a471",
+    "node_id": "MDY6Q29tbWl0MTY0OTQ4OTA5OjkzMTI2M2RkN2RkZWYxNmQwNGRmZTIwNjIzNjA2NmZjZjU0OWE0NzE=",
+    "commit": {
+      "author": {
+        "name": "Juan Lloret",
+        "email": "juallom@gmail.com",
+        "date": "2019-01-10T19:43:12Z"
+      },
+      "committer": {
+        "name": "Juan Lloret",
+        "email": "juallom@gmail.com",
+        "date": "2019-01-10T19:43:12Z"
+      },
+      "message": "Complete Commit component data and layout",
+      "tree": {
+        "sha": "238ca46e58fc3c7a6daf288dac351ce6311bd7b3",
+        "url": "https://api.github.com/repos/juallom/frontend-homework/git/trees/238ca46e58fc3c7a6daf288dac351ce6311bd7b3"
+      },
+      "url": "https://api.github.com/repos/juallom/frontend-homework/git/commits/931263dd7ddef16d04dfe206236066fcf549a471",
+      "comment_count": 2,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/juallom/frontend-homework/commits/931263dd7ddef16d04dfe206236066fcf549a471",
+    "html_url": "https://github.com/juallom/frontend-homework/commit/931263dd7ddef16d04dfe206236066fcf549a471",
+    "comments_url": "https://api.github.com/repos/juallom/frontend-homework/commits/931263dd7ddef16d04dfe206236066fcf549a471/comments",
+    "author": {
+      "login": "juallom",
+      "id": 7203420,
+      "node_id": "MDQ6VXNlcjcyMDM0MjA=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7203420?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/juallom",
+      "html_url": "https://github.com/juallom",
+      "followers_url": "https://api.github.com/users/juallom/followers",
+      "following_url": "https://api.github.com/users/juallom/following{/other_user}",
+      "gists_url": "https://api.github.com/users/juallom/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/juallom/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/juallom/subscriptions",
+      "organizations_url": "https://api.github.com/users/juallom/orgs",
+      "repos_url": "https://api.github.com/users/juallom/repos",
+      "events_url": "https://api.github.com/users/juallom/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/juallom/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "juallom",
+      "id": 7203420,
+      "node_id": "MDQ6VXNlcjcyMDM0MjA=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7203420?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/juallom",
+      "html_url": "https://github.com/juallom",
+      "followers_url": "https://api.github.com/users/juallom/followers",
+      "following_url": "https://api.github.com/users/juallom/following{/other_user}",
+      "gists_url": "https://api.github.com/users/juallom/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/juallom/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/juallom/subscriptions",
+      "organizations_url": "https://api.github.com/users/juallom/orgs",
+      "repos_url": "https://api.github.com/users/juallom/repos",
+      "events_url": "https://api.github.com/users/juallom/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/juallom/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0757c7f5dde1839e2a1935f66532bbc44e9a1922",
+        "url": "https://api.github.com/repos/juallom/frontend-homework/commits/0757c7f5dde1839e2a1935f66532bbc44e9a1922",
+        "html_url": "https://github.com/juallom/frontend-homework/commit/0757c7f5dde1839e2a1935f66532bbc44e9a1922"
+      }
+    ]
+  },
+  {
+    "sha": "0757c7f5dde1839e2a1935f66532bbc44e9a1922",
+    "node_id": "MDY6Q29tbWl0MTY0OTQ4OTA5OjA3NTdjN2Y1ZGRlMTgzOWUyYTE5MzVmNjY1MzJiYmM0NGU5YTE5MjI=",
+    "commit": {
+      "author": {
+        "name": "Juan Lloret",
+        "email": "juan.lloretmontalvo@zooplus.com",
+        "date": "2019-01-10T17:37:13Z"
+      },
+      "committer": {
+        "name": "Juan Lloret",
+        "email": "juan.lloretmontalvo@zooplus.com",
+        "date": "2019-01-10T17:37:13Z"
+      },
+      "message": "Changes in Commit component layout",
+      "tree": {
+        "sha": "0264d87d88fa243f1a884d530175613798ccea1e",
+        "url": "https://api.github.com/repos/juallom/frontend-homework/git/trees/0264d87d88fa243f1a884d530175613798ccea1e"
+      },
+      "url": "https://api.github.com/repos/juallom/frontend-homework/git/commits/0757c7f5dde1839e2a1935f66532bbc44e9a1922",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/juallom/frontend-homework/commits/0757c7f5dde1839e2a1935f66532bbc44e9a1922",
+    "html_url": "https://github.com/juallom/frontend-homework/commit/0757c7f5dde1839e2a1935f66532bbc44e9a1922",
+    "comments_url": "https://api.github.com/repos/juallom/frontend-homework/commits/0757c7f5dde1839e2a1935f66532bbc44e9a1922/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "79c1dffae6471f3083a8f46d47c14487c42a0ca2",
+        "url": "https://api.github.com/repos/juallom/frontend-homework/commits/79c1dffae6471f3083a8f46d47c14487c42a0ca2",
+        "html_url": "https://github.com/juallom/frontend-homework/commit/79c1dffae6471f3083a8f46d47c14487c42a0ca2"
+      }
+    ]
+  },
+  {
+    "sha": "79c1dffae6471f3083a8f46d47c14487c42a0ca2",
+    "node_id": "MDY6Q29tbWl0MTY0OTQ4OTA5Ojc5YzFkZmZhZTY0NzFmMzA4M2E4ZjQ2ZDQ3YzE0NDg3YzQyYTBjYTI=",
+    "commit": {
+      "author": {
+        "name": "Juan Lloret",
+        "email": "juan.lloretmontalvo@zooplus.com",
+        "date": "2019-01-10T17:09:03Z"
+      },
+      "committer": {
+        "name": "Juan Lloret",
+        "email": "juan.lloretmontalvo@zooplus.com",
+        "date": "2019-01-10T17:09:03Z"
+      },
+      "message": "Include styled-components in the project",
+      "tree": {
+        "sha": "abf97c3453d67a7d419c2cddb1eed367819bf72b",
+        "url": "https://api.github.com/repos/juallom/frontend-homework/git/trees/abf97c3453d67a7d419c2cddb1eed367819bf72b"
+      },
+      "url": "https://api.github.com/repos/juallom/frontend-homework/git/commits/79c1dffae6471f3083a8f46d47c14487c42a0ca2",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/juallom/frontend-homework/commits/79c1dffae6471f3083a8f46d47c14487c42a0ca2",
+    "html_url": "https://github.com/juallom/frontend-homework/commit/79c1dffae6471f3083a8f46d47c14487c42a0ca2",
+    "comments_url": "https://api.github.com/repos/juallom/frontend-homework/commits/79c1dffae6471f3083a8f46d47c14487c42a0ca2/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "43ee03cf6590abbfd49406b94dfc7fe093c9799b",
+        "url": "https://api.github.com/repos/juallom/frontend-homework/commits/43ee03cf6590abbfd49406b94dfc7fe093c9799b",
+        "html_url": "https://github.com/juallom/frontend-homework/commit/43ee03cf6590abbfd49406b94dfc7fe093c9799b"
+      }
+    ]
+  },
+  {
+    "sha": "43ee03cf6590abbfd49406b94dfc7fe093c9799b",
+    "node_id": "MDY6Q29tbWl0MTY0OTQ4OTA5OjQzZWUwM2NmNjU5MGFiYmZkNDk0MDZiOTRkZmM3ZmUwOTNjOTc5OWI=",
+    "commit": {
+      "author": {
+        "name": "Juan Lloret",
+        "email": "juan.lloretmontalvo@zooplus.com",
+        "date": "2019-01-10T16:59:40Z"
+      },
+      "committer": {
+        "name": "Juan Lloret",
+        "email": "juan.lloretmontalvo@zooplus.com",
+        "date": "2019-01-10T16:59:40Z"
+      },
+      "message": "Include Loader component while fetching",
+      "tree": {
+        "sha": "b524c2f28fc8c07a242322c33270d00707c8c29c",
+        "url": "https://api.github.com/repos/juallom/frontend-homework/git/trees/b524c2f28fc8c07a242322c33270d00707c8c29c"
+      },
+      "url": "https://api.github.com/repos/juallom/frontend-homework/git/commits/43ee03cf6590abbfd49406b94dfc7fe093c9799b",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/juallom/frontend-homework/commits/43ee03cf6590abbfd49406b94dfc7fe093c9799b",
+    "html_url": "https://github.com/juallom/frontend-homework/commit/43ee03cf6590abbfd49406b94dfc7fe093c9799b",
+    "comments_url": "https://api.github.com/repos/juallom/frontend-homework/commits/43ee03cf6590abbfd49406b94dfc7fe093c9799b/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "99cca1b97e240ebfc31938b4df72394c5fa9ad07",
+        "url": "https://api.github.com/repos/juallom/frontend-homework/commits/99cca1b97e240ebfc31938b4df72394c5fa9ad07",
+        "html_url": "https://github.com/juallom/frontend-homework/commit/99cca1b97e240ebfc31938b4df72394c5fa9ad07"
+      }
+    ]
+  },
+  {
+    "sha": "99cca1b97e240ebfc31938b4df72394c5fa9ad07",
+    "node_id": "MDY6Q29tbWl0MTY0OTQ4OTA5Ojk5Y2NhMWI5N2UyNDBlYmZjMzE5MzhiNGRmNzIzOTRjNWZhOWFkMDc=",
+    "commit": {
+      "author": {
+        "name": "Juan Lloret",
+        "email": "juallom@gmail.com",
+        "date": "2019-01-10T00:50:49Z"
+      },
+      "committer": {
+        "name": "Juan Lloret",
+        "email": "juallom@gmail.com",
+        "date": "2019-01-10T00:50:49Z"
+      },
+      "message": "Perform fetch request and first draft for Commit component",
+      "tree": {
+        "sha": "3e31f652cfca929b2604050d18b8aaf6cf923b42",
+        "url": "https://api.github.com/repos/juallom/frontend-homework/git/trees/3e31f652cfca929b2604050d18b8aaf6cf923b42"
+      },
+      "url": "https://api.github.com/repos/juallom/frontend-homework/git/commits/99cca1b97e240ebfc31938b4df72394c5fa9ad07",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/juallom/frontend-homework/commits/99cca1b97e240ebfc31938b4df72394c5fa9ad07",
+    "html_url": "https://github.com/juallom/frontend-homework/commit/99cca1b97e240ebfc31938b4df72394c5fa9ad07",
+    "comments_url": "https://api.github.com/repos/juallom/frontend-homework/commits/99cca1b97e240ebfc31938b4df72394c5fa9ad07/comments",
+    "author": {
+      "login": "juallom",
+      "id": 7203420,
+      "node_id": "MDQ6VXNlcjcyMDM0MjA=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7203420?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/juallom",
+      "html_url": "https://github.com/juallom",
+      "followers_url": "https://api.github.com/users/juallom/followers",
+      "following_url": "https://api.github.com/users/juallom/following{/other_user}",
+      "gists_url": "https://api.github.com/users/juallom/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/juallom/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/juallom/subscriptions",
+      "organizations_url": "https://api.github.com/users/juallom/orgs",
+      "repos_url": "https://api.github.com/users/juallom/repos",
+      "events_url": "https://api.github.com/users/juallom/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/juallom/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "juallom",
+      "id": 7203420,
+      "node_id": "MDQ6VXNlcjcyMDM0MjA=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7203420?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/juallom",
+      "html_url": "https://github.com/juallom",
+      "followers_url": "https://api.github.com/users/juallom/followers",
+      "following_url": "https://api.github.com/users/juallom/following{/other_user}",
+      "gists_url": "https://api.github.com/users/juallom/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/juallom/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/juallom/subscriptions",
+      "organizations_url": "https://api.github.com/users/juallom/orgs",
+      "repos_url": "https://api.github.com/users/juallom/repos",
+      "events_url": "https://api.github.com/users/juallom/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/juallom/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9f462260dfb6269a68d90c369c5ebde3bde7b099",
+        "url": "https://api.github.com/repos/juallom/frontend-homework/commits/9f462260dfb6269a68d90c369c5ebde3bde7b099",
+        "html_url": "https://github.com/juallom/frontend-homework/commit/9f462260dfb6269a68d90c369c5ebde3bde7b099"
+      }
+    ]
+  },
+  {
+    "sha": "9f462260dfb6269a68d90c369c5ebde3bde7b099",
+    "node_id": "MDY6Q29tbWl0MTY0OTQ4OTA5OjlmNDYyMjYwZGZiNjI2OWE2OGQ5MGMzNjljNWViZGUzYmRlN2IwOTk=",
+    "commit": {
+      "author": {
+        "name": "Juan Lloret",
+        "email": "juallom@gmail.com",
+        "date": "2019-01-09T23:17:22Z"
+      },
+      "committer": {
+        "name": "Juan Lloret",
+        "email": "juallom@gmail.com",
+        "date": "2019-01-09T23:17:22Z"
+      },
+      "message": "Add .idea folder to gitignore",
+      "tree": {
+        "sha": "b3cf7521661619b4c4285870e56567b8c3c5cd36",
+        "url": "https://api.github.com/repos/juallom/frontend-homework/git/trees/b3cf7521661619b4c4285870e56567b8c3c5cd36"
+      },
+      "url": "https://api.github.com/repos/juallom/frontend-homework/git/commits/9f462260dfb6269a68d90c369c5ebde3bde7b099",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/juallom/frontend-homework/commits/9f462260dfb6269a68d90c369c5ebde3bde7b099",
+    "html_url": "https://github.com/juallom/frontend-homework/commit/9f462260dfb6269a68d90c369c5ebde3bde7b099",
+    "comments_url": "https://api.github.com/repos/juallom/frontend-homework/commits/9f462260dfb6269a68d90c369c5ebde3bde7b099/comments",
+    "author": {
+      "login": "juallom",
+      "id": 7203420,
+      "node_id": "MDQ6VXNlcjcyMDM0MjA=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7203420?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/juallom",
+      "html_url": "https://github.com/juallom",
+      "followers_url": "https://api.github.com/users/juallom/followers",
+      "following_url": "https://api.github.com/users/juallom/following{/other_user}",
+      "gists_url": "https://api.github.com/users/juallom/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/juallom/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/juallom/subscriptions",
+      "organizations_url": "https://api.github.com/users/juallom/orgs",
+      "repos_url": "https://api.github.com/users/juallom/repos",
+      "events_url": "https://api.github.com/users/juallom/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/juallom/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "juallom",
+      "id": 7203420,
+      "node_id": "MDQ6VXNlcjcyMDM0MjA=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7203420?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/juallom",
+      "html_url": "https://github.com/juallom",
+      "followers_url": "https://api.github.com/users/juallom/followers",
+      "following_url": "https://api.github.com/users/juallom/following{/other_user}",
+      "gists_url": "https://api.github.com/users/juallom/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/juallom/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/juallom/subscriptions",
+      "organizations_url": "https://api.github.com/users/juallom/orgs",
+      "repos_url": "https://api.github.com/users/juallom/repos",
+      "events_url": "https://api.github.com/users/juallom/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/juallom/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "58fcc696e5b93e01cd1d6800d67a5cd0517cc292",
+        "url": "https://api.github.com/repos/juallom/frontend-homework/commits/58fcc696e5b93e01cd1d6800d67a5cd0517cc292",
+        "html_url": "https://github.com/juallom/frontend-homework/commit/58fcc696e5b93e01cd1d6800d67a5cd0517cc292"
+      }
+    ]
+  },
+  {
+    "sha": "58fcc696e5b93e01cd1d6800d67a5cd0517cc292",
+    "node_id": "MDY6Q29tbWl0MTY0OTQ4OTA5OjU4ZmNjNjk2ZTViOTNlMDFjZDFkNjgwMGQ2N2E1Y2QwNTE3Y2MyOTI=",
+    "commit": {
+      "author": {
+        "name": "Kristian",
+        "email": "kristian@kristians-macbook.local",
+        "date": "2018-11-27T16:51:00Z"
+      },
+      "committer": {
+        "name": "Kristian",
+        "email": "kristian@kristiasmacbook.simudyne",
+        "date": "2018-11-28T14:30:59Z"
+      },
+      "message": "🚧 scaffolding goes up 🏗️",
+      "tree": {
+        "sha": "07a666fbbdd7c6746e73d6d4afab10cb16d11aff",
+        "url": "https://api.github.com/repos/juallom/frontend-homework/git/trees/07a666fbbdd7c6746e73d6d4afab10cb16d11aff"
+      },
+      "url": "https://api.github.com/repos/juallom/frontend-homework/git/commits/58fcc696e5b93e01cd1d6800d67a5cd0517cc292",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/juallom/frontend-homework/commits/58fcc696e5b93e01cd1d6800d67a5cd0517cc292",
+    "html_url": "https://github.com/juallom/frontend-homework/commit/58fcc696e5b93e01cd1d6800d67a5cd0517cc292",
+    "comments_url": "https://api.github.com/repos/juallom/frontend-homework/commits/58fcc696e5b93e01cd1d6800d67a5cd0517cc292/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "40724f9ff1e0ec3e4392bda7decbd0d4ba4ddb4e",
+        "url": "https://api.github.com/repos/juallom/frontend-homework/commits/40724f9ff1e0ec3e4392bda7decbd0d4ba4ddb4e",
+        "html_url": "https://github.com/juallom/frontend-homework/commit/40724f9ff1e0ec3e4392bda7decbd0d4ba4ddb4e"
+      }
+    ]
+  },
+  {
+    "sha": "40724f9ff1e0ec3e4392bda7decbd0d4ba4ddb4e",
+    "node_id": "MDY6Q29tbWl0MTY0OTQ4OTA5OjQwNzI0ZjlmZjFlMGVjM2U0MzkyYmRhN2RlY2JkMGQ0YmE0ZGRiNGU=",
+    "commit": {
+      "author": {
+        "name": "Kristian Kancleris",
+        "email": "kancleris.kristian@gmail.com",
+        "date": "2018-11-27T10:23:59Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2018-11-27T10:23:59Z"
+      },
+      "message": "Initial commit",
+      "tree": {
+        "sha": "0ff6caaeb5e42c78714010d1a22fa687653f9c17",
+        "url": "https://api.github.com/repos/juallom/frontend-homework/git/trees/0ff6caaeb5e42c78714010d1a22fa687653f9c17"
+      },
+      "url": "https://api.github.com/repos/juallom/frontend-homework/git/commits/40724f9ff1e0ec3e4392bda7decbd0d4ba4ddb4e",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJb/Rs/CRBK7hj4Ov3rIwAAdHIIAEOLyr2zW2wCZi2VV6PFtb7e\nLfBdukViut82gCNqgqkpHPiIBusl0//ZOKvXC2QNVNHlhj1o5iR017jP1hN9HOXE\nfJ0zcrqjUDn5AycWH2ycjlJnAJSjumdKVFY58gj6l6B+xuF8se64BPYbmnBQB9uE\nxlwdzZP/IDQpKkMN4+q6cf2sv91OoQ2D/t9yDC1upezYg8TpdLjVUQbc//OXmJTx\nuSxPSaqYmzZjUtdy9MNqiXz5FZy50uRvGfNYxV7PaLhZPuLkIdgQjdaUeahroxjp\nPwhUZ2TkdhgkvV7dNL09Xi2vtYd+JRlV/sIVz6sPcWmrAAVUvBqoAmyc6+VRWOY=\n=sqd8\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 0ff6caaeb5e42c78714010d1a22fa687653f9c17\nauthor Kristian Kancleris <kancleris.kristian@gmail.com> 1543314239 +0000\ncommitter GitHub <noreply@github.com> 1543314239 +0000\n\nInitial commit"
+      }
+    },
+    "url": "https://api.github.com/repos/juallom/frontend-homework/commits/40724f9ff1e0ec3e4392bda7decbd0d4ba4ddb4e",
+    "html_url": "https://github.com/juallom/frontend-homework/commit/40724f9ff1e0ec3e4392bda7decbd0d4ba4ddb4e",
+    "comments_url": "https://api.github.com/repos/juallom/frontend-homework/commits/40724f9ff1e0ec3e4392bda7decbd0d4ba4ddb4e/comments",
+    "author": {
+      "login": "kristianKan",
+      "id": 5860402,
+      "node_id": "MDQ6VXNlcjU4NjA0MDI=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5860402?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kristianKan",
+      "html_url": "https://github.com/kristianKan",
+      "followers_url": "https://api.github.com/users/kristianKan/followers",
+      "following_url": "https://api.github.com/users/kristianKan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kristianKan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kristianKan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kristianKan/subscriptions",
+      "organizations_url": "https://api.github.com/users/kristianKan/orgs",
+      "repos_url": "https://api.github.com/users/kristianKan/repos",
+      "events_url": "https://api.github.com/users/kristianKan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kristianKan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+
+    ]
+  }
+]

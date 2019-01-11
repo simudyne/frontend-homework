@@ -9,7 +9,7 @@ const Commit = ({ data }) => (
     <Grid centered columns={2} verticalAlign="middle">
       <Grid.Column mobile={16} computer={6}>
         <Header size="tiny">{data.commit.message}</Header>
-        <Committer author={data.author} committer={data.committer} commit={data.commit} />
+        <Committer {...data} />
       </Grid.Column>
       <Grid.Column mobile={16} computer={10} textAlign="right">
         {data.commit.verification.verified &&

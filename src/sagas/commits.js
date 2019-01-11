@@ -1,28 +1,29 @@
-import { call, put, takeLatest } from 'redux-saga/effects'
+import { call, put, take, takeLatest } from 'redux-saga/effects'
 
 import * as types from '../constants/actionTypes'
 
 export function* fetchCommits(action) {
+  const { repository } = action
   try {
-    const commits = yield call(requestCommits, action.repository)
+    const commits = yield call(requestCommits, repository)
     yield put({ type: types.FETCH_COMMITS_SUCCESS, commits })
   } catch(error) {
     yield put({ type: types.FETCH_COMMITS_FAILURE, error: error.message })
   }
 }
 
-const headers = new Headers()
-headers.append('Content-Type', 'application/json')
-
-const config = {
-  method: 'GET',
-  headers,
-  mode: 'cors',
-  cache: 'default'
-}
-
 export function requestCommits(repository) {
+
+  const headers = new Headers()
+  headers.append('Content-Type', 'application/json')
+  const config = {
+    method: 'GET',
+    headers,
+    mode: 'cors',
+    cache: 'default'
+  }
   const request = new Request(`https://api.github.com/repos/${repository}/commits`)
+
   return fetch(request, config).then(response => {
     if (response.status === 200)
       return response.json()
