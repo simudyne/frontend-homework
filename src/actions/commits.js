@@ -1,7 +1,11 @@
 import * as types from '../constants/actionTypes'
 
-export const fetchCommitsRequest = () => ({
+export const fetchCommitsRequest = (username, repository) => ({
   type: types.FETCH_COMMITS_REQUEST,
+  payload: {
+    username,
+    repository
+  }
 })
 
 export const fetchCommitsSuccess = ticks => ({
