@@ -1,3 +1,11 @@
 #root {
     margin-top: 2rem;
 }
+
+.marginTop {
+    margin-top: 2rem;
+}
+
+.marginElement {
+    margin: 1rem;
+}
