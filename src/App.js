@@ -1,11 +1,14 @@
 import * as React from 'react'
 
 import { Graphics } from './containers/Graphics'
+import { Layout } from './components/Layout'
+import TopMenu from './containers/TopMenu'
 
-const App = () => {
+
+export const App = () => {
   return (
-    <Graphics />
+    <Layout menu={<TopMenu />} >
+      <Graphics />
+    </Layout>
   )
 }
-
-export default App

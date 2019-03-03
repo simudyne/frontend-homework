@@ -1,18 +1,18 @@
-import { call, put, takeLatest } from 'redux-saga/effects'
-
+import { put, takeLatest } from 'redux-saga/effects'
 import * as types from '../constants/actionTypes'
+import axios from "axios";
+import { fetchCommitsFailure, fetchCommitsSuccess } from "../actions";
+
+const sampleEndpoint = 'https://api.github.com/repos/reduxjs/redux/commits?page=1&per_page=100'
 
 export function* fetchCommits() {
-  const commits = yield call(requestCommits)
-  yield put({ type: types.FETCH_COMMITS_SUCCESS, commits })
-}
-
-export function requestCommits() {
-  return [
-    { sha: '👹' },
-    { sha: '👐' },
-    { sha: '🦵🦵 ' }
-  ]
+  try {
+    // yield select
+    const res = yield axios.get(sampleEndpoint)
+    yield put(fetchCommitsSuccess(res.data))
+  } catch (err) {
+    yield put(fetchCommitsFailure(err.response.data.message))
+  }
 }
 
 export const commitsSaga = [

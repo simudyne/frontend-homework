@@ -1,22 +1,16 @@
 import * as React from 'react'
-import { Segment, Grid } from 'semantic-ui-react'
+import { Container } from 'semantic-ui-react'
+import EmptyState from "../containers/EmptyState"
+import Spinner from '../containers/Spinner'
 
-const style = {
-  height: '100vh',
-  fontSize: '24px'
-}
-
-export const Graphics = ({ commits }) => {
-  return (
-    <Grid
-      centered
-      columns={2}
-      style={style}
-      verticalAlign="middle"
-    >
-      <Grid.Column textAlign='center'>
-        {commits.data.map(d => (<div>{d.sha}</div>))}
-      </Grid.Column>
-    </Grid>
-  )
-}
+export const Graphics = ({data}) => (
+  <Container>
+    <Spinner/>
+    <EmptyState />
+      {!!data.length && data.map((d, index) => (
+        <div key={index}>
+          <div><span><h3>{index}</h3></span>{d.sha}</div>
+        </div>
+      ))}
+  </Container>
+)

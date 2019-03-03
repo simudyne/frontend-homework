@@ -2,7 +2,7 @@ import { combineReducers } from 'redux'
 import commits from './commits'
 
 const reducers = combineReducers({
-  commits,
+  commits
 })
 
 export default reducers
